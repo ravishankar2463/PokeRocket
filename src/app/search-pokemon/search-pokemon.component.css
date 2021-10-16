@@ -1,0 +1,31 @@
+.btn{
+    @apply border-2 border-gray-600 shadow-md p-2 h-12 bg-blue-400 text-white;
+}
+
+.bg-pokemon{
+    background: url('../../assets/best-pokemons.jpg') rgba(182, 152, 211, 0.377);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.bg-3{
+    position: relative;
+}
+
+.bg-3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/bg3.jpg') rgba(182, 152, 211, 0.377);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    filter: blur(2px);
+    z-index: -1;
+}

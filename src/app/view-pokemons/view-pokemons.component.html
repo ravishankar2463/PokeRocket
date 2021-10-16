@@ -1,0 +1,18 @@
+<div class="bg-2 h-full pb-2 md:pb-0">
+    <div *ngIf=pokemonList>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+            <div class="grid grid-cols-1 place-items-center w-full" *ngFor="let pokemon of pokemonList;">
+                <app-pokemon-card class="w-80p" [pokemon]=pokemon></app-pokemon-card>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-wrapper">
+        <button class="btn btn-left" (click)="prevPokemons()" [disabled]="prevButtonDisabled">
+            <i class="fas fa-caret-left"></i>
+        </button>
+        <button class="btn btn-right" (click)="nextPokemons()">
+            <i class="fas fa-caret-right"></i>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<section class="h-90vh bg-1" id="landing">
+    <div class="h-full grid content-center">
+        <div class="flex justify-center items-center w-full">
+            <div class="w-11/12 bg-white">
+                <div class="flex flex-col w-auto lg:flex-row justify-center items-center border-2 border-gray-400 rounded-sm">
+                    <div class="flex-cell border-b-2 border-gray-400 md:border-b-0 md:border-r-2">
+                        <div class="h-full grid content-center">
+                            <div class="flex flex-col items-center justify-center">
+                                <p class="text-indigo-400 text-lg lg:text-7xl">Welcome!</p>
+                                <img src="../../assets/welcome_image.jpg" alt="Welcome Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-cell">
+                        <div class="h-full grid content-center md:content-start">
+                            <div class="flex flex-col items-center justify-center md:mt-10">
+                                <p class="text-green-400 text-lg lg:text-3xl mx-2">For all the Pokemon lovers out there we provide the folllowing services :</p>
+                                <ul class="list-disc self-start ml-5 md:ml-7 mt-5">
+                                    <li><a [routerLink]='["/searchPokemon"]'>Search For A Pokemon</a></li>
+                                    <li><a (click)="setCurrentPageToZero()" [routerLink]='["/seeAllPokemons"]'>See All Pokemons</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

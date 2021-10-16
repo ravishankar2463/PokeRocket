@@ -1,1 +1,181 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body{
+	position: relative;
+}
+
+.grass{
+    background-color: #9CCC51;
+}
+
+.grass-bg{
+    background-color: #dfffae;
+}
+
+.normal{
+	background-color: #A5ACAF;
+}
+
+.normal-bg{
+	background-color: #cfd8db;
+}
+
+.fighting{
+	background-color: #f56c42;
+}
+
+.fighting-bg{
+	background-color: #f78866;
+}
+
+.flying{
+	background-color: #34cece;
+}
+
+.flying-bg{
+	background-color: #89e7e7;
+}
+
+.poison{
+	background-color: #B97FC8;
+}
+
+.poison-bg{
+	background-color: #e0adec;
+}
+
+.ground{
+	background-color: #e0851c;
+}
+
+.ground-bg{
+	background-color: #e6aa65;
+}
+
+.rock{
+	background-color: #835c45;
+}
+
+.rock-bg{
+	background-color: #b48062;
+}
+
+.bug{
+	background-color: #729946;
+}
+
+.bug-bg{
+	background-color: #adcc89;
+}
+
+.ghost{
+	background-color: #2b3341;
+}
+
+.ghost-bg{
+	background-color: #5a6475;
+}
+
+.steel{
+	background-color: #9EB8B8;
+}
+
+.steel-bg{
+	background-color: #b3d1d1;
+}
+
+.fire{
+	background-color: #FD7D25;
+}
+
+.fire-bg{
+	background-color: #ff9d5c;
+}
+
+.water{
+	background-color: #54ace7;
+}
+
+.water-bg{
+	background-color: #89c1e7;
+}
+
+.electric{
+	background-color: #EED535;
+}
+
+.electric-bg{
+	background-color: #f0e6a4;
+}
+
+.psychic{
+	background-color: #F366B9;
+}
+
+.psychic-bg{
+	background-color: #f599cf;
+}
+
+.ice{
+	background-color: #50C5E7;
+}
+
+.ice-bg{
+	background-color: #90d4e9;
+}
+
+.dragon{
+	background-color: #d6c0a4;
+}
+
+.dragon-bg{
+	background-color: #D9CFC2;
+}
+
+.dark{
+	background-color: #707070;
+}
+
+.dark-bg{
+	background-color: #a7a7a7;
+}
+
+.fairy{
+	background-color: #fda8e5;
+}
+
+.fairy-bg{
+	background-color: #fcd2f0;
+}
+
+.unknown{
+	background-color: #2cebd1;
+}
+
+.unknown-bg{
+	background-color: #90f0e3;
+}
+
+.shadow{
+	background-color: #76777E;
+}
+
+.shadow-bg{
+	background-color: #9e9fa8;
+}
+
+.flex-cell{
+    @apply w-full md:h-96 lg:h-70vh;
+	min-height: 16rem;
+}
+
+ul li{
+    @apply md:text-2xl text-pink-400 hover:text-pink-300;
+}
+
+.min-h-90vh{
+	min-height: 90vh;
+}
